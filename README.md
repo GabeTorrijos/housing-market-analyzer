@@ -3,7 +3,7 @@
 A Flask web application that fetches live U.S. housing data from my [Housing Data Pipeline API](https://housing-data-pipeline.onrender.com) and performs statistical correlation analysis across 4 Federal Reserve (FRED) datasets.
 
 ## 🔴 Live Demo
-[View Live App](https://housing-market-analyzer-vlkx.onrender.com)
+[View Live App](https://housing-market-analyzer-vlkx.onrender.com) | [Status Page](https://stats.uptimerobot.com/loOPeBY5Jw)
 
 ## 📊 Features
 - **4 Individual Trend Charts** — Each dataset plotted with proper units and formatting
