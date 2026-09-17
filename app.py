@@ -6,7 +6,7 @@ from scipy import stats
 
 app = Flask(__name__)
 
-PIPELINE_URL = "https://housing-data-pipeline.onrender.com/api/all-data"
+PIPELINE_URL = "https://housing-data-pipeline.vercel.app/api/all-data"
 
 LABELS = {
     "Median Home Price": "Median Home Price",
