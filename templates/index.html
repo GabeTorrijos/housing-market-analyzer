@@ -44,24 +44,24 @@
 </head>
 <body>
     <header>
-        <h1>🏠 U.S. Housing Market Correlation Analyzer</h1>
-        <p>Powered by <a href="https://housing-data-pipeline.onrender.com" target="_blank">Housing Data Pipeline API</a> · Data sourced from FRED (Federal Reserve)</p>
+        <h1>U.S. Housing Market Correlation Analyzer</h1>
+        <p>Powered by <a href="https://housing-data-pipeline.vercel.app" target="_blank">Housing Data Pipeline API</a> · Data sourced from FRED (Federal Reserve)</p>
     </header>
 
     <div class="container">
-        <div id="loading" class="loading">⏳ Loading data from Housing Data Pipeline...</div>
+        <div id="loading" class="loading">Loading data from Housing Data Pipeline...</div>
         <div id="content" style="display:none;">
 
-            <div class="section-title">📈 Individual Trend Charts</div>
+            <div class="section-title">Individual Trend Charts</div>
             <div class="charts-grid" id="chartsGrid"></div>
 
             <div class="card">
-                <div class="section-title">🔥 Correlation Heatmap</div>
+                <div class="section-title">Correlation Heatmap</div>
                 <div id="heatmap"></div>
             </div>
 
             <div class="card">
-                <div class="section-title">💡 Key Insights</div>
+                <div class="section-title">Key Insights</div>
                 <div class="insights-grid" id="insights"></div>
             </div>
 
@@ -216,7 +216,7 @@
                 });
             })
             .catch(err => {
-                document.getElementById('loading').textContent = '❌ Error loading data. Make sure the Housing Data Pipeline is running.';
+                document.getElementById('loading').textContent = 'Error loading data. Make sure the Housing Data Pipeline is running.';
                 console.error(err);
             });
     </script>
