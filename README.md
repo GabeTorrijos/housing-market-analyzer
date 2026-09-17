@@ -1,9 +1,9 @@
 # 🏠 U.S. Housing Market Correlation Analyzer
 
-A Flask web application that fetches live U.S. housing data from my [Housing Data Pipeline API](https://housing-data-pipeline.onrender.com) and performs statistical correlation analysis across 4 Federal Reserve (FRED) datasets.
+A Flask web application that fetches live U.S. housing data from my [Housing Data Pipeline API](https://housing-data-pipeline.vercel.app) and performs statistical correlation analysis across 4 Federal Reserve (FRED) datasets.
 
 ## 🔴 Live Demo
-[View Live App](https://housing-market-analyzer-vlkx.onrender.com) | [Status Page](https://stats.uptimerobot.com/loOPeBY5Jw)
+[View Live App](https://housing-market-analyzer-ruddy.vercel.app)
 
 ## 📊 Features
 - **4 Individual Trend Charts** — Each dataset plotted with proper units and formatting
@@ -31,7 +31,7 @@ This project consumes data from my own live microservice rather than calling FRE
 - **Backend:** Python, Flask
 - **Data:** Pandas, NumPy, SciPy (Pearson correlation)
 - **Frontend:** HTML, CSS, Chart.js
-- **Deployment:** Render (free tier)
+- **Deployment:** Vercel
 - **Data Source:** Federal Reserve Economic Data (FRED)
 
 ## 🚀 Run Locally
